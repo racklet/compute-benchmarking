@@ -33,8 +33,8 @@ In alphabetical order:
 - Dennis Marttinen, [@twelho](https://github.com/twelho)
 - Jaakko Sirén, [@Jaakkonen](https://github.com/Jaakkonen)
 - Lucas Käldström, [@luxas](https://github.com/luxas)
-- Verneri Hirvonen, [@chiplet](https://github.com/chiplet)
 - Tung Nguyen, [@SoffWolf](https://github.com/SoffWolf)
+- Verneri Hirvonen, [@chiplet](https://github.com/chiplet)
 
 ## License
 
