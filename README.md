@@ -34,6 +34,7 @@ In alphabetical order:
 - Jaakko Sirén, [@Jaakkonen](https://github.com/Jaakkonen)
 - Lucas Käldström, [@luxas](https://github.com/luxas)
 - Verneri Hirvonen, [@chiplet](https://github.com/chiplet)
+- Tung Nguyen, [@SoffWolf](https://github.com/SoffWolf)
 
 ## License
 
