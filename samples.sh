@@ -1,6 +1,7 @@
 sudo apt-get install expect
 cd autofill/pts
 chmod +x *
+cd -
 
 #! /usr/bin/bash
 
