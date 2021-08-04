@@ -1,3 +1,7 @@
+sudo apt-get install expect
+cd autofill/pts
+chmod +x *
+
 #! /usr/bin/bash
 
 TEST=("pts/idle-power-usage" "pts/tiobench" "pts/node-express-loadtest" "pts/coremark" "pts/stress-ng")
