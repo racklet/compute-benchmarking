@@ -17,4 +17,10 @@ send "non\n"
 expect "New Description:"
 send "\n"
 
+expect "Do you want to view the text results of the testing (Y/n):"
+send "\n"
+expect "Would you like to upload the results to OpenBenchmarking.org (y/n):"
+send "y"
+expect "Would you like to attach the system logs (lspci, dmesg, lsusb, etc) to the test result (y/n):"
+send "y"
 expect EOF

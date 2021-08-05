@@ -5,7 +5,7 @@ cd -
 
 #! /usr/bin/bash
 
-TEST=("pts/idle-power-usage" "pts/tiobench" "pts/node-express-loadtest" "pts/coremark" "pts/stress-ng")
+TEST=("pts/coremark" "pts/stress-ng")
 
 
 for test in TEST; do
@@ -18,7 +18,7 @@ for test in TEST; do
     phoronix-test-suite result-file-to-json [tests_list]
     phoronix-test-suite merge-results [tests_list]
 
-
+# https://github.com/racklet/compute-benchmarking.git
 
 
 
