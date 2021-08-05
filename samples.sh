@@ -9,14 +9,15 @@ TEST=("pts/coremark" "pts/stress-ng")
 
 
 for test in TEST; do
-    ./autofill/${TEST}.sh $TEST
+    ./autofill/${test}.sh $test
 done
 
-for test in TEST; do
-    cd ~/.phoronix-test-suite/test-results
-    # merge the results with the same prefix pts/something_date
-    phoronix-test-suite result-file-to-json [tests_list]
-    phoronix-test-suite merge-results [tests_list]
+
+cd ~/.phoronix-test-suite/test-results
+# merge the results with the same prefix pts/something_date
+phoronix-test-suite result-file-to-json * > $(date+'%m-%d-%Y').json
+# phoronix-test-suite merge-results *
+
 
 # https://github.com/racklet/compute-benchmarking.git
 

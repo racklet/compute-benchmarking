@@ -13,7 +13,7 @@ send "\n"
 expect "Enter a name for the result file:"
 send "${test}_$date\n"
 expect "Enter a unique name to describe this test run / configuration:" 
-send "non\n"
+send "$date\n"
 expect "New Description:"
 send "\n"
 
